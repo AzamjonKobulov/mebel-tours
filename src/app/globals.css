@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-manrope;
+  }
+  
+  section {
+    @apply py-[60px] sm:py-20 lg:py-[120px] 3xl:py-40;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-brand-dark font-unbounded;
+  }
+
+  h1 {
+    @apply text-[40px] sm:text-[64px] xl:text-[82px] 3xl:text-[120px] leading-10 sm:leading-[64px] xl:leading-[82px] 3xl:leading-[120px];
+  }
+
+  h2 {
+    @apply text-4xl sm:text-5xl xl:text-[55px] 3xl:text-[80px] leading-9 sm:leading-[48px] xl:leading-[55px] 3xl:leading-[80px];
+  }
+
+  h3 {
+    @apply text-2xl sm:text-[28px] xl:text-3xl 3xl:text-[50px] leading-6 sm:leading-7 xl:leading-[30px] 3xl:leading-[50px];
+  }
+
+  h3 {
+    @apply text-2xl sm:text-[28px] xl:text-3xl 3xl:text-[50px] leading-6 sm:leading-7 xl:leading-[30px] 3xl:leading-[50px];
+  }
+
+  h4 {
+    @apply sm:text-xl xl:text-[22px] 3xl:text-3xl leading-4 sm:leading-5 xl:leading-[22px] 3xl:leading-[30px];
+  }
+
+  h4 {
+    @apply text-sm sm:text-[17px] xl:text-[19px] 3xl:text-[26px] leading-4 sm:leading-5 xl:leading-[22px] 3xl:leading-[30px];
+  }
+
+  button {
+    @apply text-xs sm:text-[13px] xl:text-sm 3xl:text-lg;
+  }
+}
+
+.container {
+  @apply max-w-full md:max-w-[784px] xl:max-w-[1184px] 3xl:max-w-[1784px] mx-auto px-[30px];
+}
