@@ -33,7 +33,7 @@ export default function HomeHero() {
               width={1920}
               height={1080}
               className="absolute inset-0 z-0 w-full h-full object-cover"
-              src="/assets/images/img-home-hero.png"
+              src="/public/assets/images/img-home-hero.png"
             />
 
             {/* Overlay */}
