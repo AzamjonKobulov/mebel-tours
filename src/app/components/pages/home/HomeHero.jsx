@@ -33,7 +33,7 @@ export default function HomeHero() {
               width={1920}
               height={1080}
               className="absolute inset-0 z-0 w-full h-full object-cover"
-              src="/public/assets/images/img-home-hero.png"
+              src="/assets/images/img-home-hero.png"
             />
 
             {/* Overlay */}
@@ -43,7 +43,7 @@ export default function HomeHero() {
               {/* Title and Fraction */}
               <div className="space-y-5 3xl:space-y-9">
                 <div className="text-white 3xl:text-3xl">
-                  01{" "}
+                  01
                   <span className="text-white/50">
                     <span>/</span> 04
                   </span>
