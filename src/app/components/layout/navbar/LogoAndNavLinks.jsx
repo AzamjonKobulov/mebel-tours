@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const links = ["Компания", "Услуги", "Каталоги мебели", "Блог"];
 
-export default function LogoAndNavLinks() {
+export default function LogoAndNavLinks({ scrolling }) {
   return (
     <div className="flex items-center gap-10">
       {/* Menu Btn & Logo */}
@@ -14,11 +14,13 @@ export default function LogoAndNavLinks() {
             viewBox="0 0 32 18"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-4 3xl:w-auto 3xl:h-auto"
+            className={`w-6 h-4 3xl:w-auto 3xl:h-auto ${
+              scrolling ? "fill-brand-dark" : "fill-white"
+            }`}
           >
-            <rect width="32" height="2" fill="white" />
-            <rect y="8" width="22" height="2" fill="white" />
-            <rect y="16" width="22" height="2" fill="white" />
+            <rect width="32" height="2" />
+            <rect y="8" width="22" height="2" />
+            <rect y="16" width="22" height="2" />
           </svg>
         </button>
 
@@ -43,10 +45,10 @@ export default function LogoAndNavLinks() {
                 viewBox="0 0 14 14"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className={scrolling ? "stroke-brand-dark" : "stroke-white"}
               >
                 <path
                   d="M3.0625 5.03125L7 8.96875L10.9375 5.03125"
-                  stroke="white"
                   strokeWidth="1.5"
                   strokeMiterlimit="10"
                   strokeLinecap="square"

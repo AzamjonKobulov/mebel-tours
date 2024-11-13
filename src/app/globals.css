@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Manrope:wght@200..800&family=Unbounded:wght@200..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,9 +9,9 @@
   body {
     @apply font-manrope;
   }
-  
+
   section {
-    @apply py-[60px] sm:py-20 lg:py-[120px] 3xl:py-40;
+    @apply pb-[60px] sm:pb-20 lg:pb-[120px] 3xl:pb-40;
   }
 
   h1,
@@ -40,7 +43,7 @@
     @apply sm:text-xl xl:text-[22px] 3xl:text-3xl leading-4 sm:leading-5 xl:leading-[22px] 3xl:leading-[30px];
   }
 
-  h4 {
+  h5 {
     @apply text-sm sm:text-[17px] xl:text-[19px] 3xl:text-[26px] leading-4 sm:leading-5 xl:leading-[22px] 3xl:leading-[30px];
   }
 
@@ -50,5 +53,36 @@
 }
 
 .container {
-  @apply max-w-full md:max-w-[784px] xl:max-w-[1184px] 3xl:max-w-[1784px] mx-auto px-[30px];
+  @apply max-w-full md:max-w-[784px] xl:max-w-[1184px] 3xl:max-w-[1784px] mx-auto px-30px;
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-in-out forwards, scaleIn 0.2s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.2s ease-in-out forwards,
+    scaleOut 0.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
 }
