@@ -120,7 +120,7 @@ export default function BuyInChina() {
               className="block min-h-40 sm:min-h-80 xl:min-h-[480px] group relative after:absolute after:inset-0 after:w-full after:h-full after:bg-black/40 overflow-hidden"
             >
               <Image
-                src="/assets/images/img-buy-in-china-6.jpg"
+                src="/assets/images/img-buy-in-china-6.png"
                 alt="Image"
                 width={1000}
                 height={800}
