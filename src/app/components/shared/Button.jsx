@@ -11,6 +11,8 @@ export default function Button({
       "text-white border border-white hover:text-white/50 hover:border-white/50 transition-all duration-300",
     grayOutline:
       "text-white/50 border border-white/50 hover:text-white hover:border-white transition-all duration-300",
+    darkOutline:
+      "text-brand-dark border border-brand-dark hover:text-brand-dark/50 hover:border-brand-dark/50 transition-all duration-300",
     navScroll:
       "text-brand-dark/80 border border-brand-dark/80 hover:text-brand-dark/50 hover:border-brand-dark/50 transition-all duration-300",
   };

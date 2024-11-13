@@ -86,3 +86,7 @@
     transform: scale(0.95);
   }
 }
+
+.no-scroll::-webkit-scrollbar {
+  @apply size-0;
+}
