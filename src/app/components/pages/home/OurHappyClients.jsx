@@ -7,7 +7,7 @@ export default function OurHappyClients() {
   return (
     <section className="section-top-padding">
       <div className="container section-space">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-30px">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-30px">
           <h2 className="sm:whitespace-nowrap">
             Наши <span className="text-brand-red">довольные</span> <br />{" "}
             клиенты

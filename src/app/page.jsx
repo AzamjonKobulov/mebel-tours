@@ -10,6 +10,7 @@ import MediaAboutUs from "./components/pages/home/MediaAboutUs";
 import OurHappyClients from "./components/pages/home/OurHappyClients";
 import OutArticles from "./components/pages/home/OutArticles";
 import QualityControl from "./components/pages/home/QualityControl";
+import ShallWeGoOnTour from "./components/pages/home/ShallWeGoOnTour";
 import StagesOfWorkingWithUs from "./components/pages/home/StagesOfWorkingWithUs";
 import WantToGoTour from "./components/pages/home/WantToGoTour";
 import WhoAreWe from "./components/pages/home/WhoAreWe";
@@ -34,6 +35,7 @@ export default function Home() {
       <InteriorDesign />
       <OurHappyClients />
       <MediaAboutUs />
+      <ShallWeGoOnTour />
     </>
   );
 }
