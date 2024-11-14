@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function QualityControl() {
   return (
-    <section className="bg-quality-control bg-no-repeat bg-cover bg-center pt-[60px] sm:pt-20 lg:pt-[120px] 3xl:pt-40">
+    <section className="bg-quality-control bg-no-repeat bg-cover bg-center section-top-padding">
       <div className="container">
         <div className="max-w-[416px] xl:max-w-[512px] 3xl:max-w-2xl space-y-5 sm:space-y-6 bg-white p-5 sm:p-30px xl:p-10 3xl:p-12">
           <div className="space-y-3.5 xl:space-y-5">

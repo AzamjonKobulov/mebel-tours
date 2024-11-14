@@ -36,7 +36,7 @@ const articles = [
 
 export default function OutArticles() {
   return (
-    <section className="pt-[60px] sm:pt-20 lg:pt-[120px] 3xl:pt-40">
+    <section className="section-top-padding">
       <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16 !px-0 lg:!px-30px">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-30px px-30px lg:px-0">
           <h2 className="sm:whitespace-nowrap">Наши статьи</h2>

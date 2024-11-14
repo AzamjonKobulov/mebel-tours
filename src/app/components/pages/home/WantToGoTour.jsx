@@ -4,7 +4,7 @@ import Button from "../../shared/Button";
 
 export default function WantToGoTour() {
   return (
-    <section className="bg-brand-red pt-[60px] sm:pt-20 lg:pt-[120px] 3xl:pt-40">
+    <section className="bg-brand-red section-top-padding">
       <div className="container grid xl:grid-cols-2 gap-5">
         <div className="3xl:space-y-20">
           <h2 className="text-white">Хотите поехать в тур?</h2>

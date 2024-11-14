@@ -32,7 +32,7 @@ export default function WhoAreWe() {
   }, []);
 
   return (
-    <section className="pt-[60px] sm:pt-20 lg:pt-[120px] 3xl:pt-40">
+    <section className="section-top-padding">
       <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16">
         <div className="flex items-end justify-between">
           <h2>

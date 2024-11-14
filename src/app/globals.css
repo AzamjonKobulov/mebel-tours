@@ -90,3 +90,7 @@
 .no-scroll::-webkit-scrollbar {
   @apply size-0;
 }
+
+.section-top-padding {
+  @apply pt-[60px] sm:pt-20 lg:pt-[120px] 3xl:pt-40;
+}
