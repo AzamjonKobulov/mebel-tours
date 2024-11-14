@@ -3,7 +3,7 @@ import Button from "../../shared/Button";
 
 export default function ShallWeGoOnTour() {
   return (
-    <section className="bg-brand-red text-white relative xl:static !pb-0 sm:!py-0">
+    <section className="bg-brand-red text-white relative xl:static overflow-hidden !pb-0 sm:!py-0">
       <div className="container xl:relative pt-[60px] md:py-20 lg:py-[120px] 3xl:py-40">
         <h2 className="text-white">
           Отправимся <br className="xl:hidden" /> в тур?
