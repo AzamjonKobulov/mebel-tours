@@ -33,7 +33,7 @@ export default function WhoAreWe() {
 
   return (
     <section className="section-top-padding">
-      <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16">
+      <div className="container section-space">
         <div className="flex items-end justify-between">
           <h2>
             Кто мы? <br /> <span className="text-brand-red">Основатели</span>

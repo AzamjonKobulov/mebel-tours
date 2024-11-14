@@ -14,7 +14,7 @@ export default function DeliveryClearance() {
           />
         </div>
 
-        <div className="space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16">
+        <div className="section-space">
           <h2>
             <span className="text-brand-red">Доставка</span> и <br /> растаможка
           </h2>

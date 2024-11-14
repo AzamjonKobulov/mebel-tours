@@ -42,7 +42,7 @@ const stages = [
 export default function StagesOfWorkingWithUs() {
   return (
     <section className="mt-minus">
-      <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16">
+      <div className="container section-space">
         <h2 className="text-center">
           <span className="text-brand-red">Этапы работы</span> <br /> с нами
         </h2>

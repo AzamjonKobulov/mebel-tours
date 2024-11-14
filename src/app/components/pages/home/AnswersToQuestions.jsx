@@ -47,7 +47,7 @@ export default function AnswersToQuestions() {
 
   return (
     <section>
-      <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16 !px-0">
+      <div className="container section-space !px-0">
         <div className="flex flex-col xl:flex-row xl:items-end justify-between gap-30px">
           <h2 className="pl-30px">
             <span className="text-brand-red">Ответы</span> на <br /> вопросы

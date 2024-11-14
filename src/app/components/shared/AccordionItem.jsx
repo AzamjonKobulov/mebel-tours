@@ -50,7 +50,7 @@ export default function AccordionItem({
       className="bg-brand-gray pb-[18px] xl:pb-5 3xl:pb-30px"
     >
       {/* Header */}
-      <button
+      <div
         onClick={onClick}
         className={`w-full flex items-center justify-between gap-7 transition-all duration-3000 px-[18px] sm:px-6 pt-[18px] xl:pt-5 xl:px-30px 3xl:pt-30px`}
       >
@@ -72,7 +72,7 @@ export default function AccordionItem({
             />
           </svg>
         </button>
-      </button>
+      </div>
 
       {/* Content */}
       <div

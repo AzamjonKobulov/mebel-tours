@@ -232,7 +232,7 @@ const items = [
 export default function MebelTourIs() {
   return (
     <section>
-      <div className="container space-y-8 sm:space-y-10 xl:space-y-12 3xl:space-y-16">
+      <div className="container section-space">
         <h2>
           Мебельный тур – <span className="text-brand-red">это</span>
         </h2>
