@@ -1,4 +1,5 @@
 import AboutCompany from "./components/pages/home/AboutCompany";
+import AnswersToQuestions from "./components/pages/home/AnswersToQuestions";
 import BuyInChina from "./components/pages/home/BuyInChina";
 import DeliveryClearance from "./components/pages/home/DeliveryClearance";
 import EvaluateBenefits from "./components/pages/home/EvaluateBenefits";
@@ -26,6 +27,7 @@ export default function Home() {
       <DeliveryClearance />
       <WantToGoTour />
       <OutArticles />
+      <AnswersToQuestions />  
     </>
   );
 }

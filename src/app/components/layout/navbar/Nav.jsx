@@ -82,13 +82,13 @@ export default function Nav() {
             {/* Auth Buttons */}
             <div className="flex items-center gap-3.5">
               <Button
-                variant={scrolling ? "red" : "grayOutline"}
+                variant={scrolling ? "red" : "whitishOutline"}
                 className="sm:h-[34px] 3xl:h-11 hidden sm:block px-2.5 3xl:px-5"
               >
                 Забронировать тур
               </Button>
               <Button
-                variant={scrolling ? "navScroll" : "grayOutline"}
+                variant={scrolling ? "navScroll" : "whitishOutline"}
                 aria-label="Login"
                 className="h-10 sm:h-[34px] 3xl:h-11 flex items-center gap-1.5 px-2.5 3xl:px-5"
               >

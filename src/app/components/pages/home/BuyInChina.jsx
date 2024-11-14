@@ -12,7 +12,7 @@ export default function BuyInChina() {
 
         {/* Cards */}
         <div className="w-full grid sm:grid-cols-3 gap-5 text-white">
-          {/* 1 */}
+          {/* Card 1 */}
           <div className="space-y-5">
             <Link
               href="/"
@@ -53,7 +53,7 @@ export default function BuyInChina() {
               </div>
             </Link>
           </div>
-          {/* 2 */}
+          {/* Card 2 */}
           <div className="space-y-5 sm:pt-5 3xl:pt-10">
             <Link
               href="/"
@@ -94,7 +94,7 @@ export default function BuyInChina() {
               </div>
             </Link>
           </div>
-          {/* 3 */}
+          {/* Card 3 */}
           <div className="space-y-5">
             <Link
               href="/"

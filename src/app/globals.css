@@ -44,7 +44,7 @@
   }
 
   h5 {
-    @apply text-sm sm:text-[17px] xl:text-[19px] 3xl:text-[26px] leading-4 sm:leading-5 xl:leading-[22px] 3xl:leading-[30px];
+    @apply text-sm sm:text-[17px] xl:text-[19px] 3xl:text-[26px] leading-[14px] sm:leading-[17px] xl:leading-[19px] 3xl:leading-[26px];
   }
 
   button {

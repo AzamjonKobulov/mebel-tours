@@ -64,7 +64,7 @@ export default function OutArticles() {
             <Link
               key={idx}
               href={article.href}
-              className={`min-w-60 md:min-w-full w-full ${
+              className={`relative flex flex-col min-w-60 md:min-w-full w-full ${
                 idx === articles.length - 1 ? "md:hidden xl:block" : ""
               } bg-brand-gray ${
                 idx === 0
@@ -79,10 +79,9 @@ export default function OutArticles() {
                 alt={article.label}
                 width={700}
                 height={700}
-                className="aspect-square object-cover"
+                className="h-1/2 xl:h-[45%] 3xl:h-3/5 object-cover"
               />
-
-              <div className="flex flex-col justify-between gap-30px xl:gap-9 3xl:gap-30px p-5">
+              <div className="h-1/2 xl:h-[55%] 3xl:h-2/5 flex flex-col justify-between p-5">
                 <div className="space-y-2.5 xl:space-y-3">
                   <h5 className="font-normal">{article.label}</h5>
                   <p className="text-brand-dark/80 text-xs sm:text-13 xl:text-sm 3xl:text-lg leading-4 sm:leading-[17px] xl:leading-[18.2px] 3xl:leading-6">
